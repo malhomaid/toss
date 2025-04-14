@@ -1,0 +1,14 @@
+Category,Metric,How to Calculate (AI method),Optimal Range,Issue if Outside Optimal Range
+Preparation,Shoulder Rotation Timing,Track when player's shoulders rotate relative to ball position (using pose and ball tracking).,Before ball crosses player's service line,Late preparation
+Preparation,Shoulder Rotation Angle,Calculate angle between shoulders and net at peak backswing (using shoulder landmarks).,70°–90° relative to net,Insufficient shoulder rotation
+Footwork & Balance,Center of Mass Stability,Track horizontal and vertical shifts of hip landmarks (center of mass proxy) through stroke.,COM shift < 15–20 cm during stroke,Poor balance and stability
+Footwork & Balance,Knee Bend,Measure knee joint angle (hip-knee-ankle) at preparation and contact frames.,Knee angle ~120°–140°,Excessive or insufficient knee bend
+Swing Path,Vertical Wrist Displacement,Calculate vertical displacement of wrist landmark from backswing to contact.,35–50 cm vertical displacement,Flat or incorrect swing path
+Swing Path,Follow-through Length,Track distance wrist landmark travels after contact point horizontally and vertically.,Wrist extends beyond opposite shoulder level,Short or restricted follow-through
+Contact Point & Timing,Contact Position Horizontal,"Determine ball-racket contact frame, measure relative position to player's front hip landmark.",Slightly in front of player's front hip,Late or early contact
+Contact Point & Timing,Contact Height,Vertical position of ball-racket contact relative to waist height landmarks.,Waist height ± 10–15 cm,Incorrect contact height
+Joint Angles & Biomechanics,Elbow Angle at Contact,Calculate elbow angle (shoulder-elbow-wrist) at ball impact.,130°–150°,Elbow too bent or too straight
+Joint Angles & Biomechanics,Wrist Stability at Contact,Measure wrist joint alignment at contact (angle between racket and forearm).,Near neutral (160°–180°),Unstable wrist position
+Joint Angles & Biomechanics,Hip Rotation,Measure rotation angle of hips at contact relative to baseline.,70°–90° rotation at contact,Insufficient hip rotation
+Follow-through,Post-Contact Shoulder & Hip Rotation,Measure additional shoulder/hip rotation after contact point.,80°–110° rotation,Incomplete body rotation
+Recovery,Return to Neutral Stance Time,Time from end of stroke to achieving neutral stance (use foot landmarks).,< 1–2 seconds after stroke completion,Slow recovery
